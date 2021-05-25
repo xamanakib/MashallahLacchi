@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&family=Odibee+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&family=Odibee+Sans&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+
+#active {
+    color: #e3ff00;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.navbar {
+    position: sticky;
+    top: 0px;
+    z-index: 15;
+    padding: 1.1rem 1rem;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show>.nav-link {
+    font-size: 20px;
+}
+
+.navbar-brand img {
+    height: 38px;
+}
+
+.navbar-nav,
+.mr-auto {
+    margin: auto;
+}
+
+.carousel-item::placeholder {
+    content: " - Remember this";
+    color: royalblue;
+    font-size: 50px;
+}
+
+@media (min-width: 0) {
+    .d-md-block {
+        display: block!important;
+    }
+}
+
+@media (min-width: 992px) {
+    .carousel-caption {
+        bottom: 50vh;
+        background: #0000006e;
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 700px) {
+    .carousel-caption p {
+        font-size: 15px !important;
+        background: none !important;
+    }
+    .carousel-caption h5 {
+        font-size: 18px !important;
+    }
+}
+
+.carousel-caption {
+    background: #00000036;
+    color: rgba(255, 255, 255, 0.835);
+}
+
+.carousel-caption h5 {
+    font-family: 'Odibee Sans', cursive;
+    font-size: 45px;
+}
+
+.carousel-caption p {
+    font-family: 'Kalam', cursive;
+    color: rgb(221, 235, 30);
+    font-size: 25px;
+    font-weight: bold;
+    background: black;
+}
+
+
+/* ********* menu************ */
+
+#menu {
+    background: #f7dee2;
+}
+
+#menu h2 {
+    font-family: 'Odibee Sans', cursive;
+    width: fit-content;
+    margin: auto;
+    font-size: 35px;
+}
+
+#delivery {
+    width: fit-content;
+    margin: auto;
+    font-family: 'Kalam', cursive;
+    color: red;
+    font-size: 25px;
+}
+
+#menu-card {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card {
+    margin: 5px;
+    background-color: #ede8e8
+}
+
+.card-img-top {
+    height: 160px;
+}
+
+@media (max-width: 540px) {
+    #menu-card {
+        flex-direction: column;
+        margin: auto;
+        width: fit-content;
+    }
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #ff006e;
+    border-color: #000000;
+}
+
+
+/* *******************footer ************ */
+
+#footLogo {
+    height: 38px;
+    margin: auto;
+}
+
+footer h2 {
+    padding-top: 10px;
+    font-family: 'Odibee Sans', cursive;
+    width: fit-content;
+    margin: auto;
+    font-size: 35px;
+}
